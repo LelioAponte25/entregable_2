@@ -22,7 +22,9 @@ const Loader = () => {
 	</div>
 	<div class="spoke"></div>
 </div>
+<h1 className='j'>LOADING...</h1>
     </div> 
+    
   )
 }
 
