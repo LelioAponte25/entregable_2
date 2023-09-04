@@ -1,0 +1,65 @@
+img{
+    max-width: 100%;
+}
+
+body{
+    background-image: url("img/storm-4501645.jpg"),  linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 80px 40px;
+} 
+
+.caja {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.lista {
+    padding-left: 0.8em;
+}
+
+ul{
+    line-height: 1.5em;
+    list-style: none;
+}
+
+.n {
+    font-weight: 900;
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+button:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+/**pagina de carga*/
